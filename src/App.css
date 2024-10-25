@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: rgb(92, 64, 51);
+}
+
+.App-header {
+  background-color: rgb(239, 208, 162);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(92, 64, 51);
+  height: 100px;
+  border-bottom: 4px solid black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.chocolate-card {
+  border: 1px solid #ccc;
+  background-color: rgb(239, 208, 162);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid black;
+}
+
+.chocolates_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(92, 64, 51);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
